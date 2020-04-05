@@ -57,25 +57,27 @@ const Home = () => {
       <div className="row">
         <div className="col m4">
           <div className="card hoverable">
-            <div className="card-image card-food-height">
-              <img
-                src={
-                  "https://lamanresepi.com/wp-content/uploads/2017/01/Resepi-Nasi-Ayam.jpg"
-                }
-                alt=""
-              />
-              <Link class="btn-floating halfway-fab waves-effect waves-light red">
-                <i class="material-icons">add</i>>
-              </Link>
-            </div>
-            <div className="card-content">
-              <p className="flow-text">Nasi Ayam</p>
-              <p className="harga-bold">RM3.90</p>
-              <p className="truncate">
-                Nasi ayam bajet dengan potongan ayam yang besar serta memuaskan
-                selera anda!
-              </p>
-            </div>
+            <Link to={"/food-detail/:food_id"}>
+              <div className="card-image card-food-height">
+                <img
+                  src={
+                    "https://lamanresepi.com/wp-content/uploads/2017/01/Resepi-Nasi-Ayam.jpg"
+                  }
+                  alt=""
+                />
+                <Link class="btn-floating halfway-fab waves-effect waves-light red">
+                  <i class="material-icons">add</i>>
+                </Link>
+              </div>
+              <div className="card-content">
+                <p className="flow-text">Nasi Ayam</p>
+                <p className="harga-bold">RM3.90</p>
+                <p className="truncate">
+                  Nasi ayam bajet dengan potongan ayam yang besar serta
+                  memuaskan selera anda!
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="col m4">

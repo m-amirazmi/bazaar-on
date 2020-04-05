@@ -35,3 +35,27 @@ code {
   height: 100%;
   width: 100%;
 }
+.food-detail-title-box {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.food-detail-title {
+  font-size: 38px;
+  margin: 0;
+}
+.food-detail-link {
+  margin-top: 10px;
+}
+.food-detail-link-item {
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  width: 45%;
+}
+.food-detail-sidebar {
+  height: 100vh;
+}
+.food-detail-sidebar-card {
+  height: 100%;
+}
